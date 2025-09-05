@@ -41,3 +41,8 @@ Example: `bun run dev` then visit `http://localhost:3000`.
 ## Architecture Notes
 - App Router with server-first React; colocate components under `src/components/*` and compose pages in `src/app/*`.
 - Favor small, typed utilities in `src/lib` and variant-driven UI.
+
+## shadCN
+- shadcn/ui is used to handle components in this project.
+- use the ShadCN MCP server to add shadcn components and more.
+- use context7 shadcn/ui to get proper up to date documentation.
